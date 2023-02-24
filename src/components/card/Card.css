@@ -1,0 +1,42 @@
+.card {
+    overflow: hidden;
+}
+.cards-area-container{
+    height:41rem;
+    width:26rem;
+    background-color: #b500ec;
+    margin: 0 auto 0 auto;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "top" "bottom";
+    overflow: hidden;
+}
+
+.bars {
+    height: 46rem;
+    width: 7rem;
+    background-color: #dd00ff;
+    position: relative;
+    transform: rotate(-45deg);
+    top:-40rem;
+    left:10rem;
+}
+
+
+.language-title{
+    grid-area:top;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.cards-container {
+    grid-area: bottom;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+}

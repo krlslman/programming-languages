@@ -1,0 +1,32 @@
+.card {
+    height: 100px;
+    background-color: rgb(246, 230, 246);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 2px gray;
+}
+
+.card-logo {
+    /* width: 70%; */
+    height: 75px;
+    transition: transform .3s ease-out;
+}
+
+.list {
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align:left;
+    font-size: 0.9rem;
+    font-weight: 500;
+    list-style-position: outside;
+    padding-left: 15px;    
+}

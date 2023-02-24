@@ -1,0 +1,19 @@
+
+.logo-container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+}
+
+.header-logo {
+    height: 80px;
+    margin: 5px 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .header-logo {
+      animation: header-logo-spin infinite 20s linear;
+    }
+}

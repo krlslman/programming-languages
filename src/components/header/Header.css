@@ -17,3 +17,21 @@
       animation: header-logo-spin infinite 20s linear;
     }
 }
+
+.question-mark {
+    height: 30px;
+    padding: 0px 15px;
+    position: relative;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+
+.info {
+    position: absolute;
+    top: 25px;
+    right: 10%;
+    border: gray solid 1px;
+    padding: 2rem;
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+}
